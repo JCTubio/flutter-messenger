@@ -1,3 +1,3 @@
 # messenger
 
-Messenger app UI build with flutter.
+Messenger app UI built with flutter.
