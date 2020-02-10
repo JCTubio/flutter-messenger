@@ -1,0 +1,1 @@
+final List<String> CATEGORIES = ['Messages', 'Online', 'Groups', 'Requests'];
