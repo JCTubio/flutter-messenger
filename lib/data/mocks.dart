@@ -58,6 +58,7 @@ List<User> favorites = [agus, mati, tony, eddy, nacho];
 List<Message> chats = [
   Message(
     sender: agus,
+    receiver: currentUser,
     time: '4:00 PM',
     text: 'Did you check the new dunkey video?',
     isLiked: false,
@@ -65,6 +66,7 @@ List<Message> chats = [
   ),
   Message(
     sender: mati,
+    receiver: currentUser,
     time: '1:00 AM',
     text: 'Man I can\'t sleep',
     isLiked: false,
@@ -72,6 +74,7 @@ List<Message> chats = [
   ),
   Message(
     sender: eddy,
+    receiver: currentUser,
     time: '12:00 PM',
     text: 'I have Rambo 1 through 6 in my pendrive, wanna binge watch it?',
     isLiked: true,
@@ -79,6 +82,7 @@ List<Message> chats = [
   ),
   Message(
     sender: tony,
+    receiver: currentUser,
     time: '7:00 PM',
     text: 'You won\'t believe what I just heard',
     isLiked: false,
@@ -86,9 +90,58 @@ List<Message> chats = [
   ),
   Message(
     sender: nacho,
+    receiver: currentUser,
     time: '8:00 AM',
     text: 'I am on my way!',
     isLiked: false,
     unread: true
+  ),
+  Message(
+    sender: currentUser,
+    receiver: eddy,
+    time: '12:03 PM',
+    text: 'I am on my way, bringing popcorn and some beers!',
+    isLiked: true,
+    unread: false
+  ),
+  Message(
+    sender: eddy,
+    receiver: currentUser,
+    time: '12:04 PM',
+    text: 'wait...',
+    isLiked: false,
+    unread: false
+  ),
+  Message(
+    sender: currentUser,
+    receiver: eddy,
+    time: '12:07 PM',
+    text: 'whats up??',
+    isLiked: false,
+    unread: false
+  ),
+  Message(
+    sender: eddy,
+    receiver: currentUser,
+    time: '12:15 PM',
+    text: 'Tony is coming',
+    isLiked: true,
+    unread: false
+  ),
+  Message(
+    sender: eddy,
+    receiver: currentUser,
+    time: '12:16 PM',
+    text: 'with beers!',
+    isLiked: true,
+    unread: false
+  ),
+  Message(
+    sender: currentUser,
+    receiver: eddy,
+    time: '12:17 PM',
+    text: 'Woohoo!',
+    isLiked: false,
+    unread: false
   )
 ];

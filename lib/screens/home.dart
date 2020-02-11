@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:messenger/data/mocks.dart';
+import 'package:messenger/models/message.dart';
 
 import 'package:messenger/widgets/category_selector.dart';
 import 'package:messenger/widgets/favorite_contacts.dart';
@@ -11,6 +12,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
